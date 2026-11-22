@@ -1,0 +1,92 @@
+
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Youtube Live Chat</title>
+  <style>
+    body {
+      margin: 0;
+      background: #101820;
+      color: #e8f0f2;
+      font-family: Arial, sans-serif;
+      line-height: 1.8;
+    }
+    header {
+      background: #172630;
+      padding: 60px 20px;
+      text-align: center;
+      border-bottom: 2px solid #35e0d0;
+    }
+    h1 { margin: 0; font-size: 36px; }
+    .subtitle { color: #35e0d0; }
+    main {
+      max-width: 800px;
+      margin: auto;
+      padding: 40px 24px;
+    }
+    h2 {
+      color: #35e0d0;
+      margin-top: 40px;
+    }
+    a { color: #35e0d0; }
+    footer {
+      text-align: center;
+      padding: 24px;
+      color: #9aadb5;
+      border-top: 1px solid #344650;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Youtube Live Chat</h1>
+    <p class="subtitle">YouTube Live Chat Display Tool</p>
+  </header>
+
+  <main>
+    <h2>概要 / About</h2>
+    <p>
+      Youtube Live Chatは、YouTubeライブ配信中の
+      コメントを取得し、OBS Studioに表示するための
+      個人利用向けツールです。
+    </p>
+    <p>
+      Youtube Live Chat is a personal tool for
+      displaying YouTube livestream chat messages
+      in OBS Studio.
+    </p>
+
+    <h2>主な機能 / Features</h2>
+    <ul>
+      <li>自分のYouTubeライブ配信を自動検出</li>
+      <li>YouTube Data APIによるコメント取得</li>
+      <li>投稿者名・コメント・アイコン情報の取得</li>
+      <li>OBS Studioへのリアルタイム送信</li>
+    </ul>
+
+    <h2>Google APIの利用</h2>
+    <p>
+      本ツールはGoogle OAuth 2.0を使用して、
+      利用者本人のYouTubeアカウントへの
+      アクセス許可を取得します。
+    </p>
+    <p>
+      取得したコメント情報は、ローカル環境で
+      OBS Studioへ送信するために使用します。
+    </p>
+
+    <h2>プライバシー / Privacy</h2>
+    <p>
+      データの取り扱いについては、
+      <a href="privacy.html">プライバシーポリシー</a>
+      をご確認ください。
+    </p>
+  </main>
+
+  <footer>
+    Youtube Live Chat
+  </footer>
+</body>
+</html>
